@@ -6,25 +6,25 @@ The bucket is configured with Versioning, Server-Side Encryption, Block Public A
 
 **TECHNOLOGIES USED**
 
-AWS S3
+- AWS S3
 
-Terraform
+- Terraform
 
-Infrastructure as Code (IaC)
+- Infrastructure as Code (IaC)
 
 **FEATURES**
 
-->Automated S3 bucket creation using Terraform
+- Automated S3 bucket creation using Terraform
 
-->Enabled S3 Versioning
+- Enabled S3 Versioning
 
-->Enabled Server-Side Encryption (SSE-S3)
+- Enabled Server-Side Encryption (SSE-S3)
 
-->Blocked public access
+- Blocked public access
 
-->Configured Lifecycle Rules
+- Configured Lifecycle Rules
 
-->Automated infrastructure deployment using Terraform
+- Automated infrastructure deployment using Terraform
 
 **PROJECT STRUCTURE**
 
