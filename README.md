@@ -15,17 +15,26 @@ Configured S3 Lifecycle Rules
 Automated AWS infrastructure using Terraform
 Project Structure
 AWS_Terraform2/
+
 ├── providers.tf
+
 ├── main.tf
+
 ├── output.tf
+
 └── README.md
+
 How to Run
+
 1. Initialize Terraform
 terraform init
+
 2. Validate the configuration
 terraform validate
+
 3. Preview the changes
 terraform plan
+
 4. Create the S3 bucket
 terraform apply
 
