@@ -1,4 +1,4 @@
-**Terraform-Based Secure Amazon S3 Bucket Management**
+** TERRAFORM-BASED SECURE AMAZON S3 BUCKET MANAGEMENT**
 
 **OVERVIEW**
 
