@@ -30,9 +30,13 @@ Automated infrastructure deployment using Terraform
 
 AWS_Terraform2/
 │
+
 ├── providers.tf
+
 ├── main.tf
+
 ├── output.tf
+
 └── README.md
 
 **DEPLOYMENT**
@@ -61,6 +65,8 @@ Versioning is enabled to keep previous versions of objects and help protect agai
 **Server-Side Encryption**
 
 SSE-S3 encryption is enabled to protect data stored in the bucket.
+
+**SCREENSHOTS**
 
 **Block Public Access**
 
