@@ -29,7 +29,7 @@ Automated infrastructure deployment using Terraform
 **PROJECT STRUCTURE**
 
 AWS_Terraform2/
-│
+
 
 ├── providers.tf
 
@@ -66,8 +66,6 @@ Versioning is enabled to keep previous versions of objects and help protect agai
 
 SSE-S3 encryption is enabled to protect data stored in the bucket.
 
-**SCREENSHOTS**
-
 **Block Public Access**
 
 All public access settings are enabled to prevent unintended public access to the bucket.
@@ -75,3 +73,17 @@ All public access settings are enabled to prevent unintended public access to th
 **Lifecycle Management**
 
 A lifecycle rule is configured to automatically expire objects after 30 days.
+
+**CLEANUP**
+
+To delete the resources after practice:
+
+terraform destroy
+
+Type:
+
+yes
+
+**KEY LEARNING**
+
+This project helped me understand Terraform, AWS S3 security, Versioning, Encryption, Block Public Access, and Lifecycle Rules using Infrastructure as Code.
